@@ -2,8 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built by Agent Switch",
+  title: "TodoApp — Stay Organized",
+  description: "A simple, clean todo list app to keep you on track.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gray-50 text-gray-900 antialiased">{children}</body>
     </html>
   );
 }
